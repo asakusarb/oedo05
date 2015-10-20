@@ -221,6 +221,10 @@ padding: 2em 20%;
 color: #222;
 }
 
+div.logo{
+margin: 30px auto;
+width: 60%;
+}
 /* ==================================================== */
 /* channels */
 
