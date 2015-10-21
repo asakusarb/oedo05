@@ -69,6 +69,10 @@ margin: 0 auto;
 margin-bottom: 2em;
 }
 
+div.center{
+width: 100%;
+text-align: center;
+}
 /* ==================================================== */
 /* about */
 
@@ -118,7 +122,7 @@ color: #222;
 
 div.speaker li{
 margin: 0 10px;
-width: 30%;
+width: 33%;
 font-weight: 700;
 text-align: center;
 vertical-align: top;
@@ -197,7 +201,7 @@ color: #20b2aa;
 }
 
 /* ==================================================== */
-/* 	ccess */
+/* access */
 
 div.access{
 background: url(../images/background_yellow.jpg);
@@ -223,7 +227,21 @@ padding: 2em 20%;
 color: #222;
 }
 
-
+div.regist_buttom{
+background-color: #4496d3;
+width: 200px;
+height: 200px;
+display: inline-block;
+border-radius: 25px;
+margin: 1em 30px;
+}
+div.regist_buttom:hover{
+background-color: #1e50a2;
+}
+.notice{
+font-size: 12pt;
+padding-left: 2em;
+}
 div.register_bottom{
 background: url(../images/furoshiki_bg_line_a.png);
 z-index: 3;
