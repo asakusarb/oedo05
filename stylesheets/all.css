@@ -3,6 +3,11 @@ background-image: url(../images/furoshiki_bg.jpg);
 margin: 0;
 }
 
+footer{
+background-image: url(../images/furoshiki_bg.jpg);
+margin: 0;
+}
+
 
 /* ==================================================== */
 /* layout */
@@ -193,30 +198,40 @@ padding: 2em 20%;
 color: #222;
 }
 
-div.access_bottom{
+/* ==================================================== */
+/* 参加登録 */
+
+
+div.register_top{
 background: url(../images/background_yellow_line.png);
+z-index: 2;
+position: absolute;
 height: 20px;
 width: 100%;
 }
 
-/* ==================================================== */
-/* 参加登録 */
-
 div.register{
+background: url(../images/background_blue.png);
 padding: 2em 20%;
 color: #222;
 }
 
 
-div.regist_buttom{
-font-size: 120%;
+div.register_bottom{
+background: url(../images/furoshiki_bg_line_a.png);
+z-index: 3;
+position: absolute;
+margin: -20px auto;
+height: 20px;
+width: 100%;
 }
+
+
 
 /* ==================================================== */
 /* sponsors */
 
 div.sponsors{
-background: white;
 padding: 2em 20%;
 color: #222;
 }
