@@ -112,14 +112,13 @@ color: #222;
 
 div.speaker{
 background: url(../images/background_pink.jpg);
-padding: 2em 17%;
-text-align: center;
+padding: 2em 20%;
 color: #222;
 }
 
 div.speaker li{
 margin: 0 10px;
-width: 33%;
+width: 30%;
 font-weight: 700;
 text-align: center;
 vertical-align: top;
