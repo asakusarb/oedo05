@@ -188,8 +188,16 @@ font-size: 13pt;
 margin: 0.2em 2em;
 }
 
+a.socialicon{
+font-size: 13pt;
+padding: 0 0 0 0.4em;
+}
+a.socialicon:hover {
+color: #20b2aa; 
+}
+
 /* ==================================================== */
-/* access */
+/* 	ccess */
 
 div.access{
 background: url(../images/background_yellow.jpg);
@@ -226,7 +234,6 @@ width: 100%;
 }
 
 
-
 /* ==================================================== */
 /* sponsors */
 
@@ -249,11 +256,11 @@ padding: 1.5em 10em;
 text-align:right;
 }
 
-i.fa{
+
+a.channelsicon{
 font-size: 30px;
 color: white;
 padding: 0.3em;
 }
-
 
 
