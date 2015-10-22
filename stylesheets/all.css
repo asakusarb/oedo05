@@ -119,15 +119,37 @@ background: url(../images/background_pink.jpg);
 padding: 2em 20%;
 color: #222;
 }
-
+div.speaker h3{
+background: #c97586;
+margin: 1em auto;
+width: 80%;
+border-radius: 12px;
+border: #a22041 solid 1px;
+}
 div.speaker li{
 margin: 0 10px;
-width: 33%;
 font-weight: 700;
 text-align: center;
 vertical-align: top;
 }
-
+li.keynote {
+width: 40%;
+padding-bottom: 2em; 
+}
+li.ninja {
+padding-bottom: 1em; 
+}
+li.ninja img{
+width: 80%;
+height: 80%;
+}
+li.lt {
+padding-bottom: 1em; 
+}
+li.lt img{
+width: 70%;
+height: 70%;
+}
 div.speaker img{
 margin-bottom: 10px;
 }
