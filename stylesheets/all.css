@@ -43,10 +43,6 @@ div.nav{
 display: inline-block;
 }
 
-ul{
-font-size: 0;
-}
-
 li{
 display: inline-block;
 font-size: 12pt;
@@ -229,8 +225,26 @@ div.access{
 background: url(../images/background_yellow.jpg);
 padding: 2em 20%;
 color: #222;
+font-size: 13pt;
 }
 
+p.address{
+padding: 0 2em;
+font-size: 14pt;
+color: #8b0000;
+}
+ul.traffic{
+list-style-type: square;
+margin-left: 3em;
+}
+ul.traffic li{
+display: list-item;
+padding: 0.5em 0;
+line-height: 1.5em;
+}
+ul.traffic strong{
+text-decoration: underline;
+}
 /* ==================================================== */
 /* 参加登録 */
 
