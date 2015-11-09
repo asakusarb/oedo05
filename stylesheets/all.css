@@ -180,7 +180,7 @@ width: 100%;
 
 table.timetable{
 margin: 0 auto;
-width: 80%;
+width: 90%;
 border-collapse: separate;
 border-spacing: 0 0.2em;
 }
@@ -207,7 +207,7 @@ background: #d6e9ca;
 p.speakername{
 color: #2c4f54;
 font-size: 13pt;
-margin: 0.2em 2em;
+margin: 0.5em 1.5em;
 }
 
 a.socialicon{
@@ -216,6 +216,20 @@ padding: 0 0 0 0.4em;
 }
 a.socialicon:hover {
 color: #20b2aa; 
+}
+a.slide{
+border-radius: 7px;
+background: #337ab7;
+color: white;
+font: 9pt normal;
+letter-spacing: -1px;
+margin: 0;
+padding: 0.1em 0.5em;
+}
+a.slide:hover {
+background: #20b2aa;
+color: white;
+text-decoration: none;
 }
 
 /* ==================================================== */
